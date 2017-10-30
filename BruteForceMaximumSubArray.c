@@ -1,4 +1,7 @@
 #include<stdio.h>
+
+void bruteForceMaximumSubArray(int *a,int n, int *left, int *right, int *maxSum);
+
 void bruteForceMaximumSubArray(int *a,int n, int *left, int *right, int *maxSum)
 {
 	int i,j,currSum;
